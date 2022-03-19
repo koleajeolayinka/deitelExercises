@@ -100,5 +100,46 @@ public class KataTest {
                 System.out.print(number + " " );
             }
         }
+
+        @Test
+    public void checkIfTheNumberIsAnEvenNumber(){
+        //given that
+    Kata evenNumber = new Kata();
+    //when
+    boolean var = evenNumber.isEvenNumber(1_144_667_678);
+    //assert
+    assertEquals(true, var);
+
+        }
+        @Test
+    public void returnTheBiggestNumber() {
+        // given that
+            Kata returnBiggestNumber = new Kata();
+            //when
+            int  maximum = returnBiggestNumber.maxInt(50, 43, 500, 31, 12);
+            //assert
+            assertEquals(500, maximum);
+        }
+        @Test
+        public void numberFactors()  {
+        // given that
+            Kata numberFactors = new Kata ();
+            //when
+            int var = numberFactors.numInt(20);
+            // assert
+            assertEquals(2,var);
+        }
+        @Test
+    public void checkIfTheNumberIsPrimeNumber() {
+        //given that
+        Kata primeNumber = new Kata();
+        //when
+        boolean var = primeNumber.isPrimeNumber(3);
+        //assert
+            assertEquals(true, var);
+        }
+
+
     }
+
 

@@ -19,4 +19,33 @@ public class Kata {
     }
 
 
+    public boolean isEvenNumber(int number) {
+        if(number % 2 == 0) return true;
+        return false;
+    }
+
+
+
+    public int maxInt(int number1, int number2, int number3, int number4, int number5) {
+        if(number1>number2 && number1>number3 && number1>number4 && number1>number5) return number1;
+        if(number2>number1 && number2>number3 && number2>number4 && number2>number5) return number2;
+        if(number3>number1 && number3>number2 && number3>number4 && number3>number5) return number3;
+        if(number4>number1 && number4>number3 && number4>number3 && number4>number5) return number4;
+        if(number5>number1 && number5>number2 && number5>number3 && number5>number4) return number5;
+        return 0;
+    }
+
+
+    public int numInt(int factors)  {
+    if(numbers <= 2) return numbers;
+    return 0;
+    }
+
+
+    public boolean isPrimeNumber(int digit) {
+        if( digit<=2) return true;
+        return false;
+    }
+
+
 }
