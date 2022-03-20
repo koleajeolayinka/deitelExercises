@@ -4,19 +4,14 @@ import java.util.Scanner;
 
 public class Asterisk {
     public Object num() {
-        int num;
+        int num = 0;
         for (int i = 0; i < 5; i++) ;
         Scanner input;
         {
             System.out.printf("Enter a number: ");
 
-            input = new Scanner(System.in);
-            num = input.nextInt();
 
         }
-        input.close();
-        return null;
-
-
-    }
+      if(num >=0)  return null;
+    return num;}
 }
