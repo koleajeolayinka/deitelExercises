@@ -2,7 +2,7 @@ package Chapter5;
 
 import java.util.Scanner;
 
-public class p5_16 {
+public class page5_16 {
 
     public static void main (String[] args) {
 

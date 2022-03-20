@@ -1,6 +1,6 @@
 package Chapter5;
 
-public class p5_15 {
+public class page5_15 {
     public static void main(String[] args) {
 
         int line;
