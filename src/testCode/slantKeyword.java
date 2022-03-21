@@ -42,3 +42,18 @@ public class slantKeyword {
  *
  */
 
+/*sout  ('''
+hello my peoejf
+1-> login
+2
+3
+"'"
+
+*
+*
+*
+*
+*
+*
+*
+ */
