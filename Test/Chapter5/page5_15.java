@@ -11,6 +11,11 @@ public class page5_15 {
                 System.out.print("*");
             }
             System.out.println();
+
+
+public
+
+
         }
     }
 
