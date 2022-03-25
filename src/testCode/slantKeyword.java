@@ -18,7 +18,7 @@ public class slantKeyword {
         int x = 12; // initialization
         System.out.println(x);
         System.out.println("type  " + x );
-        System.out.println("number");
+        System.out.printf("%s%n", "number");
         long y = 12_309_384_092_830_423l;
         System.out.println(y);
         byte z = 100;
