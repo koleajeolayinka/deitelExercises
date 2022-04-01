@@ -15,10 +15,12 @@ public class Comparison {
             System.out.printf("%d == %d%n", number1, number2);
     }
 
+     //   System.exit(1);
 
         if(number1 != number2){
         System.out.printf("%d != %d%n", number1, number2);
     }
+       // System.exit(0);
 
         if(number1 < number2) {
             System.out.printf("%d < %d%n", number1, number2);
@@ -31,7 +33,7 @@ public class Comparison {
         if(number1 <= number2) {
             System.out.printf("%d <= %d%n", number1, number2);
         }
-
+        //Math.PI STATIC VARIABLE
         if(number1 >= number2) {
             System.out.printf("%d >= %d%n", number1, number2);
         }

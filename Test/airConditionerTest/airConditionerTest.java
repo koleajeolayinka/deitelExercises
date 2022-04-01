@@ -49,6 +49,10 @@ public class airConditionerTest {
         //when
         lgAc.decreaseTemperatureNow();
 
+
+
+
+
         //asseret
         assertEquals(16,lgAc.GetDecreaseTemperatureNow);
 }

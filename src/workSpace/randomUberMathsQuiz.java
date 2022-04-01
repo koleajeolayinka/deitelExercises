@@ -26,6 +26,7 @@ public class randomUberMathsQuiz {
         createQuiz();
         administerQuiz();
         gradeQuiz();
+
     }
 
 //JOptionPane
