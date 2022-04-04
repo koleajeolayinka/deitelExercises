@@ -6,11 +6,13 @@ public class Account {
     private final String accountName;
     public String getaccountName;
     private int balance;
+    private int pin;
 
 
-    public Account(String accountNumber, String firstName, String lastName, String pin) {
+    public Account(String accountNumber, String firstName, String lastName, int pin) {
         this.accountNumber = accountNumber;
         this.accountName = firstName + " " +lastName ;
+        this.pin = pin;
     }
 
     public String getaccountNumber() {
@@ -23,19 +25,15 @@ public class Account {
     }
 
 
-    public void deposit(String s) {
-        int amount = 0;
-        this.balance = balance + amount;
+    public void deposit(int amount) {
+        balance = balance + amount;
     }
 
-    public void getaccountDeposit (int amount) {
-        balance += amount;
-
+    public int getAccountBalance(int pin) {
+        if(pin == this.pin) return balance;
+        return 0;
     }
 
-    public int getaccountBalance() {
-        if(pin.equals(this.pin)) return balance;
-    }
 
 }
 
