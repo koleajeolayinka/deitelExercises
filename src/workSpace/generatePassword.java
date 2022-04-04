@@ -4,15 +4,15 @@
  public class generatePassword {
     public static void main(String[] args) {
         Random numberRandom = new Random();
-        char [] generatedPassword = new char[12];
+        char [] generatedPassword = new char[26];
         int randNumberGenerated;
 
-               String number ="12345678912345678901234567";
+               String number ="123456789123456789012345679";
                String up= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
                String lw = "abcdefghijklmnopqrstuvwxyz";
 
         for (int i = 0; i < 4; i++) {
-            randNumberGenerated = 1+numberRandom.nextInt(12);
+            randNumberGenerated = 1+numberRandom.nextInt(26);
             System.out.print(generatedPassword[i] = number.charAt(randNumberGenerated));
             System.out.print(generatedPassword[i] = up.charAt(randNumberGenerated));
             System.out.print(generatedPassword[i] = lw.charAt(randNumberGenerated));
