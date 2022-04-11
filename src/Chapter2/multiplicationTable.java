@@ -5,9 +5,11 @@ import java.util.Scanner;
 
 public class multiplicationTable {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
-        System.out.print("enter a digit");
+        System.out.println("Welcome to multiplication table");
+        System.out.print("KIndly input a number:\n");
         int number = input.nextInt();
 
         int count = 1;

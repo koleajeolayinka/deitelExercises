@@ -50,16 +50,16 @@ public class tableOfSquaresAndCubes {
 
 
         System.out.println("number    square    cube");
-        System.out.printf(" %d  %d  %d%n", digit1,  digit1,   square1   );
-        System.out.printf(" %d  %d  %d%n", digit2,  digit2,   square2   );
-        System.out.printf(" %d  %d  %d%n", digit3,  digit3,   square3  );
-        System.out.printf(" %d  %d  %d%n", digit4,  digit4,   square4   );
-        System.out.printf(" %d  %d  %d%n", digit5,  digit5,   square5   );
-        System.out.printf(" %d  %d  %d%n", digit6,  digit6,   square6   );
-        System.out.printf(" %d  %d  %d%n", digit7,  digit7,   square7   );
-        System.out.printf(" %d  %d  %d%n", digit8,  digit8,   square8   );
-        System.out.printf(" %d  %d  %d%n", digit9,  digit9,   square9   );
-        System.out.printf(" %d %d %d%n", digit10,  digit10,   square10   );
+        System.out.printf(" %d  %d  %d%n", digit1,  square1,   square1   );
+        System.out.printf(" %d  %d  %d%n", digit2,  square2,   cube2   );
+        System.out.printf(" %d  %d  %d%n", digit3,  square3,   cube3  );
+        System.out.printf(" %d  %d  %d%n", digit4,  square4,   cube4   );
+        System.out.printf(" %d  %d  %d%n", digit5,  square5,   cube5   );
+        System.out.printf(" %d  %d  %d%n", digit6,  square6,   cube6   );
+        System.out.printf(" %d  %d  %d%n", digit7,  square7,   cube7   );
+        System.out.printf(" %d  %d  %d%n", digit8,  square8,   cube8   );
+        System.out.printf(" %d  %d  %d%n", digit9,  square9,    cube9   );
+        System.out.printf(" %d %d %d%n", digit10,  square10,   cube10   );
 
 
     }
