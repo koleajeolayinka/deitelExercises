@@ -1,2 +1,4 @@
-package Chapter4;public class GasMileage {
+package Chapter4;
+
+public class GasMileage {
 }

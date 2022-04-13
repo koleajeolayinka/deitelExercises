@@ -1,17 +1,28 @@
 package Chapter5;
 
-import java.util.Scanner;
 
 public class Asterisk {
-    public Object num() {
-        int num = 0;
-        for (int i = 0; i < 5; i++) ;
-        Scanner input;
-        {
-            System.out.printf("Enter a number: ");
+    public static void main(String[] args) {
+        for (int i = 1; i <10 ; i++) {
+            for (int j = 1; j <i+1 ; j++) {
+                System.out.printf("*" );
+                System.out.print(" ");
 
+            }
+            System.out.println();
 
         }
-      if(num >=0)  return null;
-    return num;}
+        for (int i = 1; i <10 ; i++) {
+            for (int j = 1; j < i + 1; j++) {
+                System.out.printf("*");
+                System.out.print(" ");
+            }
+            for (int j = 10-1; j < 1; j--) {
+                System.out.print("*");
+
+            }
+            System.out.println("");
+        }
+
+    }
 }

@@ -55,3 +55,16 @@ public class chatWithSystem {
 
     }
 }
+//  int[][] score = new int[3][30];
+//
+//
+//        for (int i = 0; i < 30; i++) {
+//        score[0][30] = i +1;
+//        int studentScore= scanner.nextInt();
+//        }
+//
+//        for (int i = 0; i < score.length; i++) {
+//        System.out.println(score[0][30] + "enter student score ");
+//
+//        }
+//

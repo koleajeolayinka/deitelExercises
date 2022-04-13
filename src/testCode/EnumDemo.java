@@ -39,6 +39,7 @@ public class EnumDemo {
         if( x != y) {
             System.out.print(x);
 
+
         }
 
     }
