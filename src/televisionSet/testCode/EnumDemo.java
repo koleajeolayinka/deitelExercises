@@ -1,4 +1,4 @@
-package testCode;
+package televisionSet.testCode;
 
 
 import java.util.Scanner;

@@ -28,7 +28,10 @@ public class Bank {
         this.pin = pin;
         return null;
     }
-    
+//    String name = "tobi";
+//    for(true;){
+//        System.out.println(name);
+//    }
 
     public void deposit(int amount, String accountNumber) {
         Account account = findAccount((Integer.parseInt(accountNumber)));

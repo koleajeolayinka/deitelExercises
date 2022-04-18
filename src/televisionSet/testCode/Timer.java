@@ -1,4 +1,4 @@
-package testCode;
+package televisionSet.testCode;
 /**
 * This program performs some mathematical function and displays the result.
 * It also displays the value of constant Math.PI.

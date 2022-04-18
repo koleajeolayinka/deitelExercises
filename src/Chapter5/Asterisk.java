@@ -21,7 +21,7 @@ public class Asterisk {
                 System.out.print("*");
 
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }

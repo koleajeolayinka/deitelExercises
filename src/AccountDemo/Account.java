@@ -12,7 +12,7 @@ public class Account {
 
     public Account(String accountNumber, String firstName, String lastName, String pin) {
         this.accountNumber = accountNumber;
-        this.accountName = firstName + " " +lastName ;
+        this.accountName = firstName + " " + lastName;
         this.pin = pin;
         this.Balance = balance;
         this.getaccountName = accountName;
@@ -33,13 +33,13 @@ public class Account {
     }
 
     public int getAccountBalance(String pin) {
-        if(pin == this.pin) return balance;
+        if (pin == this.pin) return balance;
         return 0;
     }
 
 
     public int getBalance(int i) {
-        return  Balance;
+        return Balance;
     }
 }
 

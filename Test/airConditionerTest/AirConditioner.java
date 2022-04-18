@@ -68,7 +68,6 @@ class AirConditioner {
         public void decreaseTemperatureNow() {
         }
     }
-
         public void decreaseTemperatureNow() {
         }
     }

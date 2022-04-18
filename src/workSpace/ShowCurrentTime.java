@@ -1,5 +1,6 @@
 package workSpace;
 
+import java.sql.Date;
 import java.time.LocalTime;
 
 public class ShowCurrentTime {
@@ -24,7 +25,8 @@ public class ShowCurrentTime {
         System.out.println(totalMilliseconds);
 
         LocalTime localTime = LocalTime.now();
-        System.out.println(localTime.getNano());
+        System.out.println(localTime);
+
 
     }
 }

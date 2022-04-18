@@ -1,4 +1,4 @@
-package testCode;
+package televisionSet.testCode;
 
 public class slantKeyword {
 
