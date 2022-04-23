@@ -1,9 +1,9 @@
 package workSpace;
 
-import java.sql.Date;
 import java.time.LocalTime;
 
 public class ShowCurrentTime {
+
     public static void main(String[] args) {
 
         long totalMilliseconds = System.currentTimeMillis();
