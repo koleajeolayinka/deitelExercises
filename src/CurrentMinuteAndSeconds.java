@@ -8,5 +8,6 @@ public class CurrentMinuteAndSeconds {
 
         System.out.println("current minute is: " + currentMinute);
         System.out.println("current seconds is: " + currentSecond);
+
     }
 }
